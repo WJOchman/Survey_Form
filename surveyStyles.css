@@ -4,3 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+section {
+    padding: 130px 100px 130px 100px;
+}
