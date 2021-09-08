@@ -13,8 +13,8 @@
   
   <body>
     <section class="section1">
-      <h1>Survey Form Title</h1>
-      <h2>Sub-Text for the Survey Form</h2>
+      <h1>Engineering Student Survey Form</h1>
+      <h2>Please help us understand you better by filling out this quick survey. This survey is all about you and your engineering pursuits as a student at University!</h2>
     </section>
 
     <form class="section2">
@@ -22,63 +22,92 @@
       <!--- Full Name --->
 
       <div class="fullName">
-        <p>Full Name:</p>
+        <p>What's Your Full Name?</p>
         <input type="text" placeholder="Full Name">
       </div>
 
       <!--- Email Address --->
 
       <div class="emailAddress">
-        <p>Email Address:</p>
+        <p>What's Your Email Address?</p>
         <input type="email" placeholder="Email Address">
       </div>
 
       <!--- Date of Birth --->
 
       <div class="dateOfBirth">
-        <p>Date of Birth:</p>
+        <p>What's Your Date Of Birth</p>
         <input type="date">
       </div>
 
       <!--- Question 1 (Only One Answer) --->
 
       <div class="question1">
-        <p>Question 1:</p>
-        <input type="radio">
-        <input type="radio">
-        <input type="radio">
-        <input type="radio">
-        <input type="radio">
+        <p>What's Your Engineering Discipline?</p>
+        <input type="radio" name="ques1">
+        <label for="Mechanical Engineering">Mechanical Engineering</label>
+        <br>
+        <input type="radio" name="ques1">
+        <label for="Civil Engineering">Civil Engineering</label>
+        <br>
+        <input type="radio" name="ques1">
+        <label for="Chemical Engineering">Chemical Engineering</label>
+        <br>
+        <input type="radio" name="ques1">
+        <label for="Electrical Engineering">Electrical Engineering</label>
+        <br>
+        <input type="radio" name="ques1">
+        <label for="Computer Engineering">Computer Engineering</label>
       </div>
 
       <!--- Question 2 (Drop-Down Options) --->
 
       <div class="question2">
-        <p>Question 2:</p>
+        <p>What Year Are You In?</p>
         <select name="" id="">
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-          <option value="option4">Option 4</option>
-          <option value="option5">Option 5</option>
-          <option value="option6">Option 6</option>
+          <option value="option1">Year 0</option>
+          <option value="option2">Year 1</option>
+          <option value="option3">Year 2</option>
+          <option value="option4">Placement Year</option>
+          <option value="option5">Year 3</option>
+          <option value="option6">Masters</option>
+          <option value="option6">PhD</option>
         </select>
       </div>
 
       <!--- Question 3 (Several Answers) --->
 
       <div class="question3">
-        <p>Qustion 3:</p>
-        <input type="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
+        <p>What's Your Favourite Part About University?</p>
+        <input type="checkbox" name="ques3">
+        <label for="Mechanical Engineering">The Studies</label>
+        <br>
+        <input type="checkbox" name="ques3">
+        <label for="Mechanical Engineering">Metting New Friends</label>
+        <br>
+        <input type="checkbox" name="ques3">
+        <label for="Mechanical Engineering">Networking with Industry Professionals</label>
+        <br>
+        <input type="checkbox" name="ques3">
+        <label for="Mechanical Engineering">Partying!</label>
+        <br>
+        <input type="checkbox" name="ques3">
+        <label for="Mechanical Engineering">Academic Societies</label>
+        <br>
+        <input type="checkbox" name="ques3">
+        <label for="Mechanical Engineering">Individual Work</label>
+        <br>
+        <input type="checkbox" name="ques3">
+        <label for="Mechanical Engineering">Team Work</label>
+        <br>
+        <input type="checkbox" name="ques3">
+        <label for="Mechanical Engineering">Exams</label>
+        <br>
+        <input type="checkbox" name="ques3">
+        <label for="Mechanical Engineering">Project Building</label>
+        <br>
+        <input type="checkbox" name="ques3">
+        <label for="Mechanical Engineering">I Hate University!</label>
       </div>
 
       <input type="submit" value="Submit">
