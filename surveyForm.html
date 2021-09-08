@@ -17,44 +17,73 @@
       <h2>Sub-Text for the Survey Form</h2>
     </section>
 
-    <section class="section2">
+    <form class="section2">
 
       <!--- Full Name --->
 
       <div class="fullName">
-
+        <p>Full Name:</p>
+        <input type="text" placeholder="Full Name">
       </div>
 
       <!--- Email Address --->
 
       <div class="emailAddress">
-
+        <p>Email Address:</p>
+        <input type="email" placeholder="Email Address">
       </div>
 
       <!--- Date of Birth --->
 
       <div class="dateOfBirth">
-
+        <p>Date of Birth:</p>
+        <input type="date">
       </div>
 
-      <!--- Question 1 --->
+      <!--- Question 1 (Only One Answer) --->
 
       <div class="question1">
-
+        <p>Question 1:</p>
+        <input type="radio">
+        <input type="radio">
+        <input type="radio">
+        <input type="radio">
+        <input type="radio">
       </div>
 
-      <!--- Question 2 --->
+      <!--- Question 2 (Drop-Down Options) --->
 
       <div class="question2">
-
+        <p>Question 2:</p>
+        <select name="" id="">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+          <option value="option4">Option 4</option>
+          <option value="option5">Option 5</option>
+          <option value="option6">Option 6</option>
+        </select>
       </div>
 
-      <!--- Question 3 --->
+      <!--- Question 3 (Several Answers) --->
 
       <div class="question3">
-
+        <p>Qustion 3:</p>
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
       </div>
-    </section>
+
+      <input type="submit" value="Submit">
+
+    </form>
 
     <!--- Footer --->
 
