@@ -5,6 +5,122 @@
     font-family: "Poppins", sans-serif;
 }
 
-section {
-    padding: 130px 100px 130px 100px;
+body {
+    background: url(./surveyBackground.jpg);
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+/*--- Section 1 ---*/
+
+.section1 {
+    background-color: #38393B;
+    text-align: center;
+    padding: 0vw;
+    margin: 8vw 12vw 0vw 12vw;
+}
+
+.section1 h1 {
+    padding: 10px;
+    font-size: 2.5vh;
+    color: white;
+}
+
+.section1 p {
+    padding: 0vw 12vw 1.2vw 12vw;
+    font-weight: 600;
+    font-size: 1.3vh;
+    color: #98999b;
+}
+
+/*--- Section 2 ---*/
+
+.section2 {
+    background-color: white;
+    margin: 0vw 12vw 8vw 12vw;
+    text-align: justify;
+}
+
+/*--- Full Name ---*/
+
+.section2 .fullName {
+    padding: 30px;
+}
+
+/*--- Email Address ---*/
+
+.section2 .emailAddress {
+    padding: 30px;
+}
+
+/*--- Date of Birth ---*/
+
+.section2 .dateOfBirth {
+    padding: 30px;
+}
+
+/*--- Question 1 ---*/
+
+.section2 .question1 {
+    padding: 30px;
+}
+
+/*--- Question 2 ---*/
+
+.section2 .question2 {
+    padding: 30px;
+}
+
+/*--- Question 3 ---*/
+
+.section2 .question3 {
+    padding: 30px;
+}
+
+/*--- Submit Button ---*/
+
+.section2 .button {
+    margin: 30px;
+}
+
+/*--- Footer ---*/
+
+.footer {
+    background-color: #38393B;
+}
+
+.footer .footerTitle {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.footer .footerTitle h2 {
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+}
+
+.footer .footerLinks {
+    text-align: center;
+    padding: 2.5vw;
+}
+
+.footer .footerLinks a {
+    font-size: 3vw;
+    color: white;
+    display: inline-block;
+    height: 60px;
+    width: 100px;
+    text-align: center;
+}
+
+/*--- Copyright ---*/
+
+.copyrightText {
+    background-color: #38393B;
+    padding: 8px 40px;
+    border-top: 1px solid #646568;
+    text-align: center;
+    color: white;
 }
