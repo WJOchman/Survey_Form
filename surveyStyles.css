@@ -17,28 +17,28 @@ body {
 .section1 {
     background-color: #38393B;
     text-align: center;
-    padding: 0vw;
-    margin: 8vw 12vw 0vw 12vw;
+    margin: 8vw 20% 0vw 20%;
 }
 
 .section1 h1 {
     padding: 10px;
-    font-size: 2.5vh;
+    font-size: 30px;
     color: white;
+    font-weight: 900;
 }
 
 .section1 p {
     padding: 0vw 12vw 1.2vw 12vw;
     font-weight: 600;
-    font-size: 1.3vh;
+    font-size: 12px;
     color: #98999b;
 }
 
 /*--- Section 2 ---*/
 
 .section2 {
-    background-color: white;
-    margin: 0vw 12vw 8vw 12vw;
+    background-color: #38393B;
+    margin: 0vw 20% 8vw 20%;
     text-align: justify;
 }
 
@@ -48,10 +48,30 @@ body {
     padding: 30px;
 }
 
+.section2 .fullName input {
+    width: 100%;
+}
+
+.section2 .fullName p {
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 /*--- Email Address ---*/
 
 .section2 .emailAddress {
     padding: 30px;
+}
+
+.section2 .emailAddress input {
+    width: 100%;
+}
+
+.section2 .emailAddress p {
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 /*--- Date of Birth ---*/
@@ -60,10 +80,30 @@ body {
     padding: 30px;
 }
 
+.section2 .dateOfBirth input {
+    width: 100%;
+}
+
+.section2 .dateOfBirth p {
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 /*--- Question 1 ---*/
 
 .section2 .question1 {
     padding: 30px;
+}
+
+.section2 .question1 p {
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.section2 .question1 label {
+    color: white;
 }
 
 /*--- Question 2 ---*/
@@ -72,16 +112,39 @@ body {
     padding: 30px;
 }
 
+.section2 .question2 select {
+    width: 100%;
+}
+
+.section2 .question2 p {
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 /*--- Question 3 ---*/
 
 .section2 .question3 {
     padding: 30px;
 }
 
+.section2 .question3 p {
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.section2 .question3 label {
+    color: white;
+}
+
 /*--- Submit Button ---*/
 
 .section2 .button {
     margin: 30px;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 /*--- Footer ---*/
@@ -91,8 +154,7 @@ body {
 }
 
 .footer .footerTitle {
-    padding: 10px;
-    padding-bottom: 20px;
+    padding: 10px 0px 0px 0px;
 }
 
 .footer .footerTitle h2 {
@@ -110,7 +172,7 @@ body {
     font-size: 3vw;
     color: white;
     display: inline-block;
-    height: 60px;
+    height: 40px;
     width: 100px;
     text-align: center;
 }
